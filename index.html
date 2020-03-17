@@ -5,38 +5,154 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PORTFOLIO</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
     <style>
+        .img {
+            width: 50vw;
+            height: 100vh;
+            float: left;
+        }
+
         #nav li {
             display: inline-block;
-             padding:4%;
+            padding: 2%;
+            font-family: 'Anton', sans-serif;
         }
 
         #nav li:hover {
-            background-color: beige;
+            background-color: #000;
         }
+
         #nav {
-            background-color:yellow;
+            background-color: #fff;
         }
+
+        #header {
+            padding: 1%;
+            widows: 40vw;
+            height: 40vh;
+        }
+
+        #one {
+            float: left;
+            text-align: start;
+            padding: 1%;
+            width: 50vw;
+            height: 30vh;
+        }
+
+        #two {
+            float: left;
+            text-align: start;
+            padding: 1%;
+            width: 50vw;
+            height: 30vh;
+
+
+        }
+
+        #body {
+            background-image: url(images/etudiant.jpg);
+            width: 50vw;
+            height: 70vh;
+            font-family: 'Arvo', serif;
+            color: #fff;
+        }
+
+        #footer {
+            display: inline;
+            text-align: left;
+        }
+
+        @media screen and (min-width:768px) and (max-width:1024px) {
+            .column {
+                font-weight: 900;
+                background-color: #000;
+                color: #ffff;
+            }
     </style>
+
 </head>
 
-<body>
-    <header>
-        my portfolio
-    </header>
+<body id="body">
+
+
     <nav>
         <ul id="nav">
-            <li><a href="one">introduction</a></li>
-            <li><a href="two">About</a></li>
-            <li><a href="three">Skills</a></li>
-            <li><a href="four">Projects</a></li>
-            <li><a href="five">Contacts</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="project.html">PROJECT</a></li>
+            <li><a href="contacts.html">CONTACTS</a></li>
 
         </ul>
     </nav>
-    <section >
+
+    <section>
+        <h1>
+            HI, I'm Berack.
+        </h1>
+        <p>
+            A user Experience designer and fronted web developer
+        </p>
+        <p>
+            Computer Science student, web developer, blah blah blah.
+            Thanks for visiting my website
+        </p>
+        </p>
 
     </section>
+    <section id="one">
+        <h2>
+            ABOUT
+        </h2>
+        <ul>
+            <li>
+                <article>
+                    <p>
+                        I earn a living by creating custom brands and logo designs from scratch, as well as
+                        designing and building high quality websites and blogs,
+                    </p>
+                    <p>
+                        but I also enjoy producing the odd
+                        t-shirt graphic, illustration or character design.
+                    </p>
+                    <p>
+                        I pride myself in having the nerdy skills
+                        to build top notch creations online, as well as being knowledgeable in the print side of
+                        design.
+                    </p>
+                </article>
+            </li>
+        </ul>
+
+    </section>
+    <section id="two">
+        <h3>
+            PROJECTS
+        </h3>
+        <ul>
+            <li>
+                <article>
+                    <p>
+                        I’m forever creating design work for both myself as personal projects And also as a hired
+                        gun for clients from around the world.
+                    </p>
+                </article>
+            </li>
+        </ul>
+    </section>
 </body>
+
+<footer id="footer">
+    copyright 2020
+    <a href="http://instagram.com/guka.a_"><img src="images/1adb7294a822d5367fc54cf3de7529c1.jpg" width="80vw"
+            height="80vh" alt=""></a>
+    <a href="http://facebook.com/beko kaunda"><img src="images/facebook-new.png" width="80vw" height="80vh" alt=""></a>
+    <a href="0716929596"><img src="images/download (1).png" width="80vw" height="80vh" alt=""></a>
+    <a href="mailto:kaundaberack@gmail.com"><img src="images/download.png" width="80vw" height="80vh" alt=""></a>
+
+</footer>
 
 </html>
